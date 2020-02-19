@@ -10,7 +10,7 @@ print('檔案讀取完畢,總共有', len(data), '筆資料')
 
 sum_len = 0
 for d in data: #每個d是一個字串
-    sum_len = sum_len + len(d) # sum_len(d) += 1
+    sum_len = sum_len + len(d) # sum_len += len(d)
 print('留言平均長度為', sum_len / len(data))
 
 
